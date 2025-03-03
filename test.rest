@@ -1,0 +1,10 @@
+### TEST /test
+GET http://localhost:1337/test
+
+### Guess
+POST http://localhost:3000/submit
+Content-Type: application/json
+
+{
+  "guess": 42
+}
